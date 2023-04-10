@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'botoes.dart';
 
@@ -16,7 +18,9 @@ void meuApp(){
           title: Text("Hello World", style: _boldTextStyle)
         ),
         body: Center(
+          
           child: Column(children:[
+          
           Expanded(
             child: Text("La Fin Du Monde - Bock - 65 ibu", style: _boldTextStyle),
           ),
