@@ -30,7 +30,7 @@ void meuApp(){
         ]
           )
         ),
-        bottomNavigationBar: NewNavBar(),
+        bottomNavigationBar: NewBottons(),
         ),
   );
 

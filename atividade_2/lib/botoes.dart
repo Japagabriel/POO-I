@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class NewNavBar extends StatelessWidget {
-  NewNavBar();
+class NewBottons extends StatelessWidget {
+  NewBottons();
 
-  void botaoFoiTocado(int index) {
+  void botpress(int index) {
     print("Tocaram no botão: $index");
   }
 
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      onTap: botaoFoiTocado, 
+      onTap: botpress, 
       items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.call),
