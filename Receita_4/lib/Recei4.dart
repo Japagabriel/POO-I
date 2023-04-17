@@ -7,7 +7,7 @@ class MeuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      theme: ThemeData(primarySwatch: Colors.cyan),
       debugShowCheckedModeBanner:false,
       home: Scaffold(
         appBar: AppBar( 
