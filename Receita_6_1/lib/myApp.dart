@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
           ),
           body: const MyCustomForm(),
           bottomNavigationBar: NewNavBar(icons: const [
-            Icons.ac_unit,
-            Icons.access_alarm,
+            Icons.rocket,
+            Icons.star,
             Icons.accessibility
           ]),
         ));
